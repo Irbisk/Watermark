@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CardGameTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-05T14:33:33" hostname="DESKTOP-C650NMD" time="0.599">
+  <properties/>
+  <testcase name="start" classname="CardGameTest" time="0.599"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Input the image filename:
+> test\notexist.png
+The file test\notexist.png doesn't exist.
+?[1;31m
+Start test 2?[0m
+Input the image filename:
+> test\grey.png
+The number of image color components isn't 3.
+?[1;31m
+Start test 3?[0m
+Input the image filename:
+> test\bits16.png
+The image isn't 24 or 32-bit.
+?[1;31m
+Start test 4?[0m
+Input the image filename:
+> test\image3.png
+Input the watermark image filename:
+> test\notexist.png
+The file test\notexist.png doesn't exist.
+?[1;31m
+Start test 5?[0m
+Input the image filename:
+> test\image3.png
+Input the watermark image filename:
+> test\grey.png
+The number of watermark color components isn't 3.
+?[1;31m
+Start test 6?[0m
+Input the image filename:
+> test\image3.png
+Input the watermark image filename:
+> test\bits16.png
+The watermark isn't 24 or 32-bit.
+?[1;31m
+Start test 7?[0m
+Input the image filename:
+> test\image3.png
+Input the watermark image filename:
+> test\70x50.png
+The image and watermark dimensions are different.
+?[1;31m
+Start test 8?[0m
+Input the image filename:
+> test\image3.png
+Input the watermark image filename:
+> test\watermark2.png
+Input the watermark transparency percentage (Integer 0-100):
+> 30
+Input the output image filename (jpg or png extension):
+> test\out1.png
+The watermarked image test\out1.png has been created.
+?[1;31m
+Start test 9?[0m
+Input the image filename:
+> test\image3.png
+Input the watermark image filename:
+> test\watermark3.png
+Do you want to use the watermark's Alpha channel?
+> no
+Input the watermark transparency percentage (Integer 0-100):
+> 40
+Input the output image filename (jpg or png extension):
+> test\out2.png
+The watermarked image test\out2.png has been created.
+?[1;31m
+Start test 10?[0m
+Input the image filename:
+> test\image3.png
+Input the watermark image filename:
+> test\watermark3.png
+Do you want to use the watermark's Alpha channel?
+> yes
+Input the watermark transparency percentage (Integer 0-100):
+> 20
+Input the output image filename (jpg or png extension):
+> test\out3.png
+The watermarked image test\out3.png has been created.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

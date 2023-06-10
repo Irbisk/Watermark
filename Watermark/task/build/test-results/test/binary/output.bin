@@ -1,0 +1,80 @@
+[1;31m
+Start test 1[0m
+Input the image filename:
+> test\notexist.png
++The file test\notexist.png doesn't exist.
+[1;31m
+Start test 2[0m
+Input the image filename:
+> test\grey.png
+/The number of image color components isn't 3.
+[1;31m
+Start test 3[0m
+Input the image filename:
+> test\bits16.png
+The image isn't 24 or 32-bit.
+[1;31m
+Start test 4[0m
+Input the image filename:
+> test\image3.png
+%Input the watermark image filename:
+> test\notexist.png
++The file test\notexist.png doesn't exist.
+[1;31m
+Start test 5[0m
+Input the image filename:
+> test\image3.png
+%Input the watermark image filename:
+> test\grey.png
+3The number of watermark color components isn't 3.
+[1;31m
+Start test 6[0m
+Input the image filename:
+> test\image3.png
+%Input the watermark image filename:
+> test\bits16.png
+#The watermark isn't 24 or 32-bit.
+[1;31m
+Start test 7[0m
+Input the image filename:
+> test\image3.png
+%Input the watermark image filename:
+> test\70x50.png
+3The image and watermark dimensions are different.
+[1;31m
+Start test 8[0m
+Input the image filename:
+> test\image3.png
+%Input the watermark image filename:
+> test\watermark2.png
+>Input the watermark transparency percentage (Integer 0-100):
+> 30
+9Input the output image filename (jpg or png extension):
+> test\out1.png
+7The watermarked image test\out1.png has been created.
+[1;31m
+Start test 9[0m
+Input the image filename:
+> test\image3.png
+%Input the watermark image filename:
+> test\watermark3.png
+3Do you want to use the watermark's Alpha channel?
+> no
+>Input the watermark transparency percentage (Integer 0-100):
+> 40
+9Input the output image filename (jpg or png extension):
+> test\out2.png
+7The watermarked image test\out2.png has been created.
+[1;31m
+Start test 10[0m
+Input the image filename:
+> test\image3.png
+%Input the watermark image filename:
+> test\watermark3.png
+3Do you want to use the watermark's Alpha channel?
+> yes
+>Input the watermark transparency percentage (Integer 0-100):
+> 20
+9Input the output image filename (jpg or png extension):
+> test\out3.png
+7The watermarked image test\out3.png has been created.

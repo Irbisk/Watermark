@@ -1,0 +1,14 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: "fun main() {\n    val unlucky = \"My scope should change!\"    \n    // do\
+    \ not change the code below\n    check()\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17122#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 08 Jun 2023 08:15:53 UTC"
+record: -1
+submission_language: kotlin
